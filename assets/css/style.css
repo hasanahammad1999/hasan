@@ -1,0 +1,1464 @@
+/*===========================================
+
+
+01. COMMON CSS PART
+02. BACK TO TOP BUTTON PART
+03.  MENU PART
+04. BANNER PART
+05. SERVICE PART
+06. SKILL PART
+07. ABOUT PART
+08. PORTFOLIO PART
+09. FOOTER PART
+============================================*/
+
+
+/*=========================================
+           COMMON CSS PART START
+==========================================*/
+
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+ul,
+ol {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+/*=========================================
+           COMMON CSS PART END
+==========================================*/
+
+
+
+/*=========================================
+           NAVBER CSS PART START
+==========================================*/
+button:focus {
+    outline: none !important;
+}
+.navbar-toggler i{
+	color: #ffffff;
+}
+
+
+
+.nav-bg-color{
+	background-color: #0D8177 !important;
+}
+
+
+
+
+
+
+
+
+
+#navbar1 h1 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -3px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+
+#navbar1 h1 span {
+    color: #ff6363;
+    padding-left: 5px;
+}
+
+
+.navbar ul li a{
+    color: #ffffff;
+}
+.navbar ul li a:hover {
+    color: #ff6363;
+  
+
+}
+
+.navbar ul li a:hover, .active .nav-link{
+    background-color: none;
+    color: #ff6363 !important;
+}
+
+
+
+
+.nav-link:hover {
+    transition: .3s;
+    animation-name: spin;
+    animation-duration: 1000ms;
+
+   
+
+}
+.nav-link{
+    float: left;
+    margin-left: 10px;
+}
+
+/*=========================================
+       NAVBER PART END
+==========================================*/
+
+
+
+/*=========================================
+           JPARTICLES CSS PART START
+==========================================*/
+#particles-js{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+/*=========================================
+       PARTICLES CSS PART END
+==========================================*/
+
+
+
+/*=========================================
+           BANNER CSS PART START
+==========================================*/
+.banner-nr {
+	position: relative;
+    background: url(../images/designn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+   
+   
+}
+
+
+
+
+
+.banner-text  {
+	padding: 20PX;
+	margin-top: 150PX;
+}
+
+.banner-text h2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.banner-text h4 {
+   
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    line-height: 48px;
+    margin-top: 13px;
+    color:  #ffffff;
+}
+
+.banner-text p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 26px;
+    margin-top: 25px;
+}
+
+.banner-text button{
+    color: #ff6363;
+    background-color: transparent !important;
+    padding: 5px;
+    border: 2px solid #ffffff;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.banner-text button i{
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.banner-text button:hover{
+    
+    background-color: #ffffff !important;
+}
+
+
+
+.social-icon a {
+  color: #ffffff;
+  font-size: 16px;
+margin-right: 10px;
+
+
+
+}
+.social-icon i {
+
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.social-icon i:hover{
+    color:#ff6363;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+/*=========================================
+              BANNER PART END
+==========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 18px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: rgba(0,0,0,.5);
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.instagram {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #55ACEE;
+  color: white;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+           TYPEWRITER CSS PART START
+==========================================*/
+.typewriter {
+    font-family: sans-serif;
+    color: #fff;
+    display: block;
+}
+
+.typewriter-text {
+    padding-right: 10px;
+    color: #FFFF00;
+    border-right: solid #ffe509 3px;
+    text-transform: uppercase;
+    animation: cursor -5s ease-in-out infinite;
+    font-weight: bold;
+}
+
+@keyframes cursor {
+    from {
+        border-color: #ffe509;
+    }
+
+    to {
+        border-color: transparent;
+    }
+}
+
+@media (max-width: 767.98px) {
+   .typewriter{
+    font-size: 20px;
+   }
+    .typewriter-text {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .banner-text{
+      margin-bottom: 15px;
+    }
+    .banner-text h4{
+      font-size: 25px;
+
+    }
+     .banner-text p{
+      font-size: 14px;
+     }
+     .banner-text button{
+      display: none;
+     }
+
+
+
+    .icon-bar a{
+     display: none;
+
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .typewriter {
+        font-size: 60px;
+    }
+
+}
+
+
+
+/*=========================================
+           TYPEWITER CSS PART END
+==========================================*/
+
+
+
+
+/*=========================================
+           ABOUT CSS PART START
+==========================================*/
+.section-about {
+    padding-top: 20px;
+    padding-bottom: 40px
+    background-color: #ffffff;
+    color: #211f24;
+}
+
+.section-about .about-section {
+    margin-bottom: 25px;
+}
+
+.section-about .about-section .title {
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-about .about-section .title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 1px;
+    background-color: #f70037;
+}
+
+.section-about .about-section .title:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 3px;
+    background-color: #f70037;
+}
+
+.section-about .about-section .title span {
+    color: #f70037;
+}
+
+.section-about .about-section .description {
+    color: #6f6f71;
+}
+
+
+
+.img-wrap{
+    width: 100%;
+}
+
+.img-wrap img{
+    margin-top: 30px;
+    width: 100%;
+    padding: 35px;
+   border-radius: 30%;
+   
+}
+
+.information{
+
+    margin-top: 30px;
+}
+
+
+.information button{
+    color: #ff6363;
+    background-color: transparent !important;
+    padding: 5px;
+    border: 2px solid#ff6363;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.information button i{
+    color:  #ff6363;
+    margin-left: 5px;
+}
+
+
+.information button:hover{
+    color: black;
+    background-color: #ffffff !important;
+}
+
+
+
+/*=========================================
+           ABOUT CSS PART END
+==========================================*/
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+           SERVICE CSS PART START
+==========================================*/
+
+.section-services {
+    padding-top: 90px;
+    padding-bottom: 90px;
+   
+    background-color: #ffffff;
+    color: #211f24;
+}
+
+.section-services .header-section {
+    margin-bottom: 35px;
+}
+
+.section-services .header-section .title {
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-services .header-section .title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 1px;
+    background-color: #f70037;
+}
+
+.section-services .header-section .title:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 3px;
+    background-color: #f70037;
+}
+
+.section-services .header-section .title span {
+    color: #f70037;
+}
+
+.section-services .header-section .description {
+    color: #6f6f71;
+}
+
+.section-services .single-service {
+    margin-top: 40px;
+    background-color: #24252a;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+}
+
+.section-services .single-service .part-1 {
+    padding: 40px 40px 25px;
+    border-bottom: 2px solid #1d1e23;
+}
+
+.section-services .single-service .part-1 i {
+    margin-bottom: 25px;
+    font-size: 50px;
+    color: #f70037;
+}
+
+.section-services .single-service .part-1 .title {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.8em;
+}
+
+.section-services .single-service .part-2 {
+    padding: 30px 40px 40px;
+}
+
+.section-services .single-service .part-2 .description {
+    margin-bottom: 22px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+
+.section-services .single-service .part-2 a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.section-services .single-service .part-2 a i {
+    margin-right: 10px;
+    color: #f70037;
+}
+
+
+
+/*=========================================
+          SERVICE  CSS PART END
+==========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+           SKILLS CSS PART START
+==========================================*/
+
+
+
+.section-skills {
+    padding-top: 90px;
+    padding-bottom: 90px;
+   
+    background-color: #ffffff;
+    color: #211f24;
+}
+
+.section-skills .skills-section {
+    margin-bottom: 35px;
+}
+
+.section-skills .skills-section .title {
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-skills .skills-section .title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 1px;
+    background-color: #f70037;
+}
+
+.section-skills .skills-section .title:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 3px;
+    background-color: #f70037;
+}
+
+.section-skills .skills-section .title span {
+    color: #f70037;
+}
+
+.section-skills .skills-section .description {
+    color: #6f6f71;
+}
+
+
+
+
+
+.title {
+  font-weight: bold;
+  font-size: 15px;
+  color: #db3a34;
+}
+
+.bar {
+  width: 100%;
+  height: 35px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  transition: all 2s linear;
+}
+
+
+
+.bar-inner {
+  width: 0;
+  height: 10px;
+  line-height: 35px;
+  background: #db3a34;
+  border-radius: 5px 0 0 5px;
+}
+
+.bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 18px;
+}
+
+
+/*=========================================
+           SKILLS CSS PART START
+==========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+           WORK CSS PART START
+==========================================*/
+
+
+.section-work {
+    padding-top: 90px;
+    padding-bottom: 90px;
+   
+    background-color: #ffffff;
+    color: #211f24;
+}
+
+.section-work .work-section {
+    margin-bottom: 35px;
+}
+
+.section-work .work-section .title {
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-work .work-section .title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 1px;
+    background-color: #f70037;
+}
+
+.section-work .work-section .title:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 3px;
+    background-color: #f70037;
+}
+
+.section-work .work-section .title span {
+    color: #f70037;
+}
+
+.section-work .work-section .description {
+    color: #6f6f71;
+}
+
+
+
+
+
+
+
+.col_half { width: 49%; }
+.col_third { width: 32%; }
+.col_fourth { width: 23.5%; }
+.col_fifth { width: 18.4%; }
+.col_sixth { width: 15%; }
+.col_three_fourth { width: 74.5%;}
+.col_twothird{ width: 66%;}
+.col_half,
+.col_third,
+.col_twothird,
+.col_fourth,
+.col_three_fourth,
+.col_fifth{
+    position: relative;
+    display:inline;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+.end { margin-right: 0 !important; }
+/* Column Grids End */
+
+.wrapper { width: 0px; 
+    margin: 0px auto; 
+    position: relative;
+}
+.counter { background-color: #ffffff; 
+    padding: 20px 0; 
+    border-radius: 5px;
+}
+.count-title { font-size: 40px; 
+    font-weight: normal;  margin-top: 10px; 
+    margin-bottom: 0; 
+    text-align: center; 
+}
+.count-text { font-size: 13px; 
+    font-weight: normal;  margin-top: 10px; 
+    margin-bottom: 0; 
+    text-align: center; 
+}
+.fa-2x { margin: 0 auto; 
+    float: none; display: 
+    table; color: #4ad1e5; 
+}
+
+
+
+/*=========================================
+           WORK CSS PART END
+==========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+           PROJECT CSS PART START
+==========================================*/
+
+
+
+.section-project {
+    padding-top: 90px;
+    padding-bottom: 90px;
+   
+    background-color: #ffffff;
+    color: #211f24;
+}
+
+.section-project .project-section {
+    margin-bottom: 35px;
+}
+
+.section-project .project-section .title {
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-project .project-section .title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 1px;
+    background-color: #f70037;
+}
+
+.section-project .project-section .title:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 3px;
+    background-color: #f70037;
+}
+
+.section-project .project-section .title span {
+    color: #f70037;
+}
+
+.section-project .project-section .description {
+    color: #6f6f71;
+}
+
+
+
+
+.accordion {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+.accordion ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 16.666%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 500ms ease-in-out;
+}
+
+.accordion ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.accordion ul li div a {
+  display: block;
+  height: 350px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  /*filter: invert(100%);*/
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  transition: all 300ms ease-in-out;
+}
+
+.accordion ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+.accordion ul li div a h2 {
+  font-family: Montserrat, sans-serif;
+  text-overflow: clip;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  top: 160px;
+}
+
+.accordion ul li div a p {
+  top: 160px;
+  font-size: 18px;
+  padding-left: 1em;
+}
+
+.accordion ul li:nth-child(1) { 
+  background-image: url("../images/118852_4270633_667757_image.jpg"); 
+  background-position: 50% 30%;
+}
+
+.accordion ul li:nth-child(2) { 
+  background-image: url("../images/Free-Bootstrap-Template-Leroy.jpg"); 
+ background-position: 70% 0%;
+}
+
+.accordion ul li:nth-child(3) { 
+  background-image: url("../images/f973eaa6ca39b63580a9fb4ef63df443.jpg"); 
+background-position: 50% 50%;
+}
+
+.accordion ul li:nth-child(4) { 
+  background-image: url("../images/118852_4270633_667757_image.jpg"); 
+  background-position: 30% 40%;
+}
+
+.accordion ul li:nth-child(5) { 
+  background-image: url("../images/stylebarber-758x948.jpg"); 
+  background-position: 60% 64%;
+}
+
+.accordion ul li:nth-child(6) { 
+  background-image: url("../images/f973eaa6ca39b63580a9fb4ef63df443.jpg"); 
+  background-position: 70% 25%;
+}
+
+.accordion ul li { background-size: cover; }
+.accordion ul:hover li { width: 10%; }
+.accordion ul:hover li:hover { width: 90%; }
+
+/*.accordion ul:hover li:hover a { background: rgba(0, 0, 0, 0.4); }*/
+
+.accordion ul:hover li:hover a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+ @media screen and (max-width: 680px) {
+  
+  body { margin: 0; }
+  .accordion { height: auto; }
+
+  .accordion ul li,
+  .accordion ul li:hover,
+  .accordion ul:hover li,
+  .accordion ul:hover li:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .accordion ul li div a * {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+
+/*=========================================
+          PROJECT CSS PART END
+==========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+           CONTACT CSS PART START
+==========================================*/
+
+.section-contact {
+    padding-top: 90px;
+    padding-bottom: 90px;
+   
+    background-color: #ffffff;
+    color: #211f24;
+}
+
+.section-contact .contact-section {
+    margin-bottom: 35px;
+}
+
+.section-contact .contact-section .title {
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-contact .contact-section .title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 1px;
+    background-color: #f70037;
+}
+
+.section-contact .contact-section .title:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 3px;
+    background-color: #f70037;
+}
+
+.section-contact .contact-section .title span {
+    color: #f70037;
+}
+
+.section-contact .contact-section .description {
+    color: #6f6f71;
+}
+
+
+
+
+#contact .form-control{
+    border-radius: 0%;
+}
+
+#contact button{
+    border-radius:0%;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+    
+}
+
+
+
+/*=========================================
+           CONTACT CSS PART END
+==========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+           FOOTER CSS PART START
+==========================================*/
+
+
+#footer{
+    background-image: url(../images/c490739223326be0ddccbf3bd1d7381ce7926fa5.webp);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+#footer img{
+  height: 100%;
+  width: 100%;
+}
+.footer-section {
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ffffff;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #ffffff;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #ffffff;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #ffffff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #ffffff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+
+.footer-widget-heading h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background:#ff6363;
+    padding: 13px 20px;
+    border: 1px solid #ff6363;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 5px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+.copyright-text p a{
+  color: #ffffff;
+}
+
+
+
+
+
+
+/*=========================================
+           FOOTER CSS PART END
+==========================================*/
+
+
+
+
+
+.socil-icons{
+  font-size: 25px;
+}
+
+.slide-overlay{
+  position: absolute;
+ 
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.4);
+}
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+           BACK TO TOP CSS PART START
+==========================================*/
+
+
+
+#back2Top {
+    width: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #ff6363;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+
+
+
+
+
+
+
+/*=========================================
+          BACK TO TOP PART END
+==========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
